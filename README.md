@@ -1,6 +1,9 @@
-it scan all com ports automatically, and put the binary file into same folder,
-f5 is all your need.
+This app scan all com ports of pc automatically, load newest binary file and burn to addr: 0x0800_0000.
 
+Put the binary file in the same folder,
+and run the main.py: python main.py（python version >= 3.11）.
+
+a real example:
 '''
 connected to COM3
 old version: 2.5.35T
