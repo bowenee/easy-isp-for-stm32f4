@@ -1,7 +1,8 @@
-This app scan all com ports of pc automatically, load newest binary file and burn to addr: 0x0800_0000.
+This script scan all serial ports of pc automatically, load newest binary file and burn to addr: 0x0800_0000.
 
-Put the binary file in the same folder,
-and run the main.py: python main.py（python version >= 3.11）.
+1、Put stm32f4xx/stm32f1x? into isp mode.
+2、Put the binary file in the same folder,
+3、Run main.py: python main.py（python version >= 3.11）.
 
 a real example:
 '''
