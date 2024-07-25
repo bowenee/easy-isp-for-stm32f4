@@ -47,6 +47,7 @@ def send_and_get(data='02 fd', num=300, ms=1000, cmd=1):
 
 def enter_boot():
     # time.sleep(1)
+    return -1 #todo
     ser.write('{"id":"000004","cmd":"heartbeat","type":"request","message":"open","check_sum":"9a"}'.encode('gb2312'))
     time.sleep(0.5)
     if(ser.in_waiting > 150): 
